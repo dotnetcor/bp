@@ -1,0 +1,13 @@
+C:\dev\bp\BPCalculator
+--output-path=obj\Release\netcoreapp2.0\
+--application-name=BPCalculator
+--content-root=C:\dev\bp\BPCalculator
+--file=C:\dev\bp\BPCalculator\Pages\About.cshtml
+--file=C:\dev\bp\BPCalculator\Pages\BloodPressure.cshtml
+--file=C:\dev\bp\BPCalculator\Pages\Contact.cshtml
+--file=C:\dev\bp\BPCalculator\Pages\Error.cshtml
+--file=C:\dev\bp\BPCalculator\Pages\Index.cshtml
+--file=C:\dev\bp\BPCalculator\Pages\_Layout.cshtml
+--file=C:\dev\bp\BPCalculator\Pages\_ValidationScriptsPartial.cshtml
+--file=C:\dev\bp\BPCalculator\Pages\_ViewImports.cshtml
+--file=C:\dev\bp\BPCalculator\Pages\_ViewStart.cshtml

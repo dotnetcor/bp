@@ -1,0 +1,11 @@
+C:\dev\bp\BPCalculator\bin\Release\netcoreapp2.0\BPCalculator.deps.json
+C:\dev\bp\BPCalculator\bin\Release\netcoreapp2.0\BPCalculator.runtimeconfig.json
+C:\dev\bp\BPCalculator\bin\Release\netcoreapp2.0\BPCalculator.runtimeconfig.dev.json
+C:\dev\bp\BPCalculator\bin\Release\netcoreapp2.0\BPCalculator.dll
+C:\dev\bp\BPCalculator\bin\Release\netcoreapp2.0\BPCalculator.pdb
+C:\dev\bp\BPCalculator\obj\Release\netcoreapp2.0\BPCalculator.csprojAssemblyReference.cache
+C:\dev\bp\BPCalculator\obj\Release\netcoreapp2.0\BPCalculator.csproj.CoreCompileInputs.cache
+C:\dev\bp\BPCalculator\obj\Release\netcoreapp2.0\BPCalculator.AssemblyInfoInputs.cache
+C:\dev\bp\BPCalculator\obj\Release\netcoreapp2.0\BPCalculator.AssemblyInfo.cs
+C:\dev\bp\BPCalculator\obj\Release\netcoreapp2.0\BPCalculator.dll
+C:\dev\bp\BPCalculator\obj\Release\netcoreapp2.0\BPCalculator.pdb

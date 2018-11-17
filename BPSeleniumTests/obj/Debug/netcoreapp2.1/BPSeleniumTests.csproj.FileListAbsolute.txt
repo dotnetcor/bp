@@ -1,0 +1,14 @@
+C:\dev\bp\BPSeleniumTests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\dev\bp\BPSeleniumTests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\dev\bp\BPSeleniumTests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\dev\bp\BPSeleniumTests\bin\Debug\netcoreapp2.1\BPSeleniumTests.deps.json
+C:\dev\bp\BPSeleniumTests\bin\Debug\netcoreapp2.1\BPSeleniumTests.runtimeconfig.json
+C:\dev\bp\BPSeleniumTests\bin\Debug\netcoreapp2.1\BPSeleniumTests.runtimeconfig.dev.json
+C:\dev\bp\BPSeleniumTests\bin\Debug\netcoreapp2.1\BPSeleniumTests.dll
+C:\dev\bp\BPSeleniumTests\obj\Debug\netcoreapp2.1\BPSeleniumTests.csprojAssemblyReference.cache
+C:\dev\bp\BPSeleniumTests\obj\Debug\netcoreapp2.1\BPSeleniumTests.csproj.CoreCompileInputs.cache
+C:\dev\bp\BPSeleniumTests\obj\Debug\netcoreapp2.1\BPSeleniumTests.AssemblyInfoInputs.cache
+C:\dev\bp\BPSeleniumTests\obj\Debug\netcoreapp2.1\BPSeleniumTests.AssemblyInfo.cs
+C:\dev\bp\BPSeleniumTests\bin\Debug\netcoreapp2.1\BPSeleniumTests.pdb
+C:\dev\bp\BPSeleniumTests\obj\Debug\netcoreapp2.1\BPSeleniumTests.dll
+C:\dev\bp\BPSeleniumTests\obj\Debug\netcoreapp2.1\BPSeleniumTests.pdb

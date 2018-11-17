@@ -1,0 +1,17 @@
+C:\dev\bp\BPTest\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\dev\bp\BPTest\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\dev\bp\BPTest\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\dev\bp\BPTest\bin\Debug\netcoreapp2.1\BPTest.deps.json
+C:\dev\bp\BPTest\bin\Debug\netcoreapp2.1\BPTest.runtimeconfig.json
+C:\dev\bp\BPTest\bin\Debug\netcoreapp2.1\BPTest.runtimeconfig.dev.json
+C:\dev\bp\BPTest\bin\Debug\netcoreapp2.1\BPTest.dll
+C:\dev\bp\BPTest\bin\Debug\netcoreapp2.1\BPTest.pdb
+C:\dev\bp\BPTest\bin\Debug\netcoreapp2.1\BPCalculator.dll
+C:\dev\bp\BPTest\bin\Debug\netcoreapp2.1\BPCalculator.pdb
+C:\dev\bp\BPTest\obj\Debug\netcoreapp2.1\BPTest.csprojAssemblyReference.cache
+C:\dev\bp\BPTest\obj\Debug\netcoreapp2.1\BPTest.csproj.CoreCompileInputs.cache
+C:\dev\bp\BPTest\obj\Debug\netcoreapp2.1\BPTest.AssemblyInfoInputs.cache
+C:\dev\bp\BPTest\obj\Debug\netcoreapp2.1\BPTest.AssemblyInfo.cs
+C:\dev\bp\BPTest\obj\Debug\netcoreapp2.1\BPTest.csproj.CopyComplete
+C:\dev\bp\BPTest\obj\Debug\netcoreapp2.1\BPTest.dll
+C:\dev\bp\BPTest\obj\Debug\netcoreapp2.1\BPTest.pdb
