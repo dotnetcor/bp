@@ -51,9 +51,9 @@ namespace SeleniumUnitTest
         public void TestForLowBP()
         {
             // Init the driver
-            IWebDriver driver = new ChromeDriver();
+            IWebDriver driver = new ChromeDriver(Environment.GetEnvironmentVariable("ChromeWebDriver")); 
 
-            
+
 
             // navigate to URI for Blood Pessure Converter
 
@@ -103,7 +103,7 @@ namespace SeleniumUnitTest
         public void TestForNormalBP()
         {
             // Init the driver
-            IWebDriver driver = new ChromeDriver();
+            IWebDriver driver = new ChromeDriver(Environment.GetEnvironmentVariable("ChromeWebDriver")); 
 
 
 
@@ -155,7 +155,7 @@ namespace SeleniumUnitTest
         public void TestForPreHighBP()
         {
             // Init the driver
-            IWebDriver driver = new ChromeDriver();
+            IWebDriver driver = new ChromeDriver(Environment.GetEnvironmentVariable("ChromeWebDriver")); 
 
 
 
@@ -207,7 +207,7 @@ namespace SeleniumUnitTest
         public void TestForHighBP()
         {
             // Init the driver
-            IWebDriver driver = new ChromeDriver();
+            IWebDriver driver = new ChromeDriver(Environment.GetEnvironmentVariable("ChromeWebDriver")); 
 
 
 
