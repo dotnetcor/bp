@@ -51,13 +51,13 @@ namespace SeleniumUnitTest
         public void TestForLowBP()
         {
             // Init the driver
-            IWebDriver driver = new ChromeDriver(@"C:\dev\chromedriver_win32");
+            IWebDriver driver = new ChromeDriver();
 
             
 
             // navigate to URI for Blood Pessure Converter
 
-            driver.Navigate().GoToUrl("http://localhost:40328/bloodpressure");
+            driver.Navigate().GoToUrl("https://ittcsdca1cbbp.azurewebsites.net/bloodpressure");
 
             // get form elements
            
@@ -103,13 +103,13 @@ namespace SeleniumUnitTest
         public void TestForNormalBP()
         {
             // Init the driver
-            IWebDriver driver = new ChromeDriver(@"C:\dev\chromedriver_win32");
+            IWebDriver driver = new ChromeDriver();
 
 
 
             // navigate to URI for Blood Pessure Converter
 
-            driver.Navigate().GoToUrl("http://localhost:40328/bloodpressure");
+            driver.Navigate().GoToUrl("https://ittcsdca1cbbp.azurewebsites.net/bloodpressure");
 
             // get form elements
 
@@ -155,13 +155,13 @@ namespace SeleniumUnitTest
         public void TestForPreHighBP()
         {
             // Init the driver
-            IWebDriver driver = new ChromeDriver(@"C:\dev\chromedriver_win32");
+            IWebDriver driver = new ChromeDriver();
 
 
 
             // navigate to URI for Blood Pessure Converter
 
-            driver.Navigate().GoToUrl("http://localhost:40328/bloodpressure");
+            driver.Navigate().GoToUrl("https://ittcsdca1cbbp.azurewebsites.net/bloodpressure");
 
             // get form elements
 
@@ -207,13 +207,13 @@ namespace SeleniumUnitTest
         public void TestForHighBP()
         {
             // Init the driver
-            IWebDriver driver = new ChromeDriver(@"C:\dev\chromedriver_win32");
+            IWebDriver driver = new ChromeDriver();
 
 
 
             // navigate to URI for Blood Pessure Converter
 
-            driver.Navigate().GoToUrl("http://localhost:40328/bloodpressure");
+            driver.Navigate().GoToUrl("https://ittcsdca1cbbp.azurewebsites.net/bloodpressure");
 
             // get form elements
 
