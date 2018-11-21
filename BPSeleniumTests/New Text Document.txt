@@ -1,0 +1,3 @@
+<TestRunParameters>
+    <Parameter name="appURL" value="http://localhost" />
+ </TestRunParameters>

@@ -73,7 +73,7 @@ namespace SeleniumUnitTest
             IWebDriver driver = new ChromeDriver(Environment.GetEnvironmentVariable("ChromeWebDriver"));
 
 
-            string webAppUrl = TestContext.Properties["appURL"].ToString();
+            string webAppUrl = TestContext.Properties["appURL"].ToString(); 
           //  Console.WriteLine("derp derp derp");
           //  Console.WriteLine(webAppUrl);
             // navigate to URI for Blood Pessure Converter
