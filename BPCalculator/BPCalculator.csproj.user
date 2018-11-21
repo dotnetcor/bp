@@ -5,6 +5,6 @@
   </PropertyGroup>
   <PropertyGroup>
     <ActiveDebugProfile>BPCalculator</ActiveDebugProfile>
-    <NameOfLastUsedPublishProfile>ITTCSDCA1CBBP - Web Deploy</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>ittcsdca1cbbp-staging - Web Deploy</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>

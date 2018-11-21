@@ -9,3 +9,4 @@ C:\dev\bp\BPCalculator\obj\Release\netcoreapp2.0\BPCalculator.AssemblyInfoInputs
 C:\dev\bp\BPCalculator\obj\Release\netcoreapp2.0\BPCalculator.AssemblyInfo.cs
 C:\dev\bp\BPCalculator\obj\Release\netcoreapp2.0\BPCalculator.dll
 C:\dev\bp\BPCalculator\obj\Release\netcoreapp2.0\BPCalculator.pdb
+C:\dev\bp\BPCalculator\obj\Release\netcoreapp2.0\UserSecretsAssemblyInfo.cs
