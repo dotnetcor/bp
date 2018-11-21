@@ -5,6 +5,7 @@
 
 // MSTest
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System.Configuration;
 
 // NuGet install Selenium WebDriver package and Support Classes
 using OpenQA.Selenium;
@@ -18,7 +19,10 @@ namespace SeleniumUnitTest
 {
     [TestClass]
     public class SeleniumUnitTest1
-    {/*
+    {
+        private string _url;
+       // private TestContext testContextInstance;
+        /*
         // .runsettings file contains test run parameters
         // e.g. URI for app
         // test context for this run
@@ -45,19 +49,36 @@ namespace SeleniumUnitTest
 
         // one unit test
         */
-        
+        private TestContext testContextInstance;
+        public TestContext TestContext
+        {
+            get
+            {
+                return testContextInstance;
+            }
+            set
+            {
+                testContextInstance = value;
+            }
+        }
+
        
+        [TestInitialize]
+        public void TestInit() {
+        }
         [TestMethod]
         public void TestForLowBP()
         {
             // Init the driver
-            IWebDriver driver = new ChromeDriver(Environment.GetEnvironmentVariable("ChromeWebDriver")); 
+            IWebDriver driver = new ChromeDriver(Environment.GetEnvironmentVariable("ChromeWebDriver"));
 
 
-
+            string webAppUrl = TestContext.Properties["appURL"].ToString();
+          //  Console.WriteLine("derp derp derp");
+          //  Console.WriteLine(webAppUrl);
             // navigate to URI for Blood Pessure Converter
-
-            driver.Navigate().GoToUrl("https://ittcsdca1cbbp.azurewebsites.net/bloodpressure");
+          //  var webAppUrl = context.Properties["this._url"].ToString();
+            driver.Navigate().GoToUrl(webAppUrl);
 
             // get form elements
            
@@ -103,13 +124,13 @@ namespace SeleniumUnitTest
         public void TestForNormalBP()
         {
             // Init the driver
-            IWebDriver driver = new ChromeDriver(Environment.GetEnvironmentVariable("ChromeWebDriver")); 
+            IWebDriver driver = new ChromeDriver(Environment.GetEnvironmentVariable("ChromeWebDriver"));
 
 
 
             // navigate to URI for Blood Pessure Converter
-
-            driver.Navigate().GoToUrl("https://ittcsdca1cbbp.azurewebsites.net/bloodpressure");
+            string webAppUrl = TestContext.Properties["appURL"].ToString();
+            driver.Navigate().GoToUrl(webAppUrl);
 
             // get form elements
 
@@ -155,14 +176,14 @@ namespace SeleniumUnitTest
         public void TestForPreHighBP()
         {
             // Init the driver
-            IWebDriver driver = new ChromeDriver(Environment.GetEnvironmentVariable("ChromeWebDriver")); 
+            IWebDriver driver = new ChromeDriver(Environment.GetEnvironmentVariable("ChromeWebDriver"));
 
 
 
             // navigate to URI for Blood Pessure Converter
 
-            driver.Navigate().GoToUrl("https://ittcsdca1cbbp.azurewebsites.net/bloodpressure");
-
+            string webAppUrl = TestContext.Properties["appURL"].ToString();
+            driver.Navigate().GoToUrl(webAppUrl);
             // get form elements
 
             IWebElement systolicElement = driver.FindElement(By.Id("BP_Systolic"));
@@ -207,14 +228,14 @@ namespace SeleniumUnitTest
         public void TestForHighBP()
         {
             // Init the driver
-            IWebDriver driver = new ChromeDriver(Environment.GetEnvironmentVariable("ChromeWebDriver")); 
+            IWebDriver driver = new ChromeDriver(Environment.GetEnvironmentVariable("ChromeWebDriver"));
 
 
 
             // navigate to URI for Blood Pessure Converter
 
-            driver.Navigate().GoToUrl("https://ittcsdca1cbbp.azurewebsites.net/bloodpressure");
-
+            string webAppUrl = TestContext.Properties["appURL"].ToString();
+            driver.Navigate().GoToUrl(webAppUrl);
             // get form elements
 
             IWebElement systolicElement = driver.FindElement(By.Id("BP_Systolic"));
