@@ -14398,11 +14398,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\dev\\bp\\BPTest\\BPTest.csproj",
-      "projectName": "BPTest",
-      "projectPath": "C:\\dev\\bp\\BPTest\\BPTest.csproj",
+      "projectUniqueName": "C:\\dev\\bp\\UnitTests\\UnitTests.csproj",
+      "projectName": "UnitTests",
+      "projectPath": "C:\\dev\\bp\\UnitTests\\UnitTests.csproj",
       "packagesPath": "C:\\Users\\corms\\.nuget\\packages\\",
-      "outputPath": "C:\\dev\\bp\\BPTest\\obj\\",
+      "outputPath": "C:\\dev\\bp\\UnitTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
