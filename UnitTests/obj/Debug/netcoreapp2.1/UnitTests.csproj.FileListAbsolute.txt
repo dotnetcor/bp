@@ -1,0 +1,17 @@
+c:\dev\bp\UnitTests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+c:\dev\bp\UnitTests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+c:\dev\bp\UnitTests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+c:\dev\bp\UnitTests\bin\Debug\netcoreapp2.1\UnitTests.deps.json
+c:\dev\bp\UnitTests\bin\Debug\netcoreapp2.1\UnitTests.runtimeconfig.json
+c:\dev\bp\UnitTests\bin\Debug\netcoreapp2.1\UnitTests.runtimeconfig.dev.json
+c:\dev\bp\UnitTests\bin\Debug\netcoreapp2.1\UnitTests.dll
+c:\dev\bp\UnitTests\bin\Debug\netcoreapp2.1\UnitTests.pdb
+c:\dev\bp\UnitTests\bin\Debug\netcoreapp2.1\BPCalculator.dll
+c:\dev\bp\UnitTests\bin\Debug\netcoreapp2.1\BPCalculator.pdb
+c:\dev\bp\UnitTests\obj\Debug\netcoreapp2.1\UnitTests.csprojAssemblyReference.cache
+c:\dev\bp\UnitTests\obj\Debug\netcoreapp2.1\UnitTests.csproj.CoreCompileInputs.cache
+c:\dev\bp\UnitTests\obj\Debug\netcoreapp2.1\UnitTests.AssemblyInfoInputs.cache
+c:\dev\bp\UnitTests\obj\Debug\netcoreapp2.1\UnitTests.AssemblyInfo.cs
+c:\dev\bp\UnitTests\obj\Debug\netcoreapp2.1\UnitTests.csproj.CopyComplete
+c:\dev\bp\UnitTests\obj\Debug\netcoreapp2.1\UnitTests.dll
+c:\dev\bp\UnitTests\obj\Debug\netcoreapp2.1\UnitTests.pdb
