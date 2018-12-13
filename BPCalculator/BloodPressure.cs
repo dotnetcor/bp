@@ -21,6 +21,8 @@ namespace BPCalculator
         public const int DiastolicMin = 40;
         public const int DiastolicMax = 100;
 
+        public string HealthTip { get; set; }
+
         [Range(SystolicMin, SystolicMax, ErrorMessage = "Invalid Systolic Value")]
         public int Systolic { get; set; }      // mmHG
 
@@ -65,8 +67,34 @@ namespace BPCalculator
                         s.Add(Diastoliclevels[element]);
                 }
 
+                CalculateHealthTip(s.ToArray().Max());
+
                 // Return the highest classification (enum)
                 return s.ToArray().Max();
+
+            }
+        }
+
+        private void CalculateHealthTip(BPCategory bPCategory)
+        {
+            switch (bPCategory) {
+                case BPCategory.Normal:
+                    this.HealthTip = "Keep up the good work!";
+                        break;
+                case BPCategory.Low:
+                    this.HealthTip = "TIP: Factor some salt into your diet, eat healthy fruits and grains and consult a physician.";
+                    break;
+                case BPCategory.PreHigh:
+                    this.HealthTip = "TIP: Reduce weight, increase exercise and reduce alcohol consumption.";
+                    break;
+                case BPCategory.High:
+                    this.HealthTip = "Consult a physician.";
+                    break;
+                default:
+           
+                    this.HealthTip = "";
+                
+                    break;
 
             }
         }
