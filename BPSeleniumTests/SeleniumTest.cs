@@ -1,7 +1,3 @@
-// automated user acceptance testing using Selenium
-// C# binding to WebDriver (Selenium 2.0)
-// tests app deployed on Azure e.g. http://gc-temperatureconverter-qa.azurewebsites.net
-// as in runsettings file (SeleniumTest.runsettings)
 
 // MSTest
 using Microsoft.VisualStudio.TestTools.UnitTesting;
@@ -21,34 +17,7 @@ namespace SeleniumUnitTest
     public class SeleniumUnitTest1
     {
         private string _url;
-       // private TestContext testContextInstance;
-        /*
-        // .runsettings file contains test run parameters
-        // e.g. URI for app
-        // test context for this run
-
-        private TestContext testContextInstance;
-
-        // test harness uses this property to initliase test context
-        public TestContext TestContext
-        {
-            get { return testContextInstance; }
-            set { testContextInstance = value; }
-        }
-
-        // URI for web app being tested
-        private String webAppUri;
-
-        // .runsettings property overriden in vsts test runner
-        // release task
-        [TestInitialize]                // run before each unit test
-        public void Setup()
-        {
-            this.webAppUri = testContextInstance.Properties["webAppUri"].ToString();
-        }
-
-        // one unit test
-        */
+     
         private TestContext testContextInstance;
         public TestContext TestContext
         {
